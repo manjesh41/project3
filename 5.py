@@ -7,10 +7,12 @@ following:
  ****
  ***
 '''
-def show_star(rows):
-    for i in range (1,rows+1):
-        
-        rows=+1
-        print('*',end ="")
+def show_stars(rows):
+    for i in range (rows):
+        for j in range(i+1):
+
+            print("*",end=" ")
+        print("")
+
     return
-show_star(5)
+show_stars(5)
