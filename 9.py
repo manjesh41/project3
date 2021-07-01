@@ -5,7 +5,6 @@ Note: A palindrome is a word, phrase, or sequence that reads the same backward a
 forward, e.g., madam or nurses run.ot.
 '''
 def passed_string(string):
-
     if (string == string[::-1]):
         print("The string is a palindrome")
     else:

@@ -4,7 +4,7 @@
 def fraction(a):
     num=1
     if num<0:
-        print('not ave factorial')
+        print('not a factorial')
     elif num==0:
         print('the factorial is 1')
     else:
