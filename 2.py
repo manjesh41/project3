@@ -6,11 +6,14 @@ If it is divisible by both 3 and 5, it should return “FizzBuzz”.
 Otherwise, it should return the same number.
 '''
 def fizz_buzz(a):
-    if a/3:
-        print('FIZZ')
-    elif a/5:
-        print('BUZZ')
-    elif a/3 or a/5:
-        print('FIZZBUZZ')
-    return
-fizz_buzz(20)
+    if a%3==0 and a%5==0:
+       print('fizzBUZZ')
+    elif a%5==0:
+        print('buzz')
+    elif a%3==0:
+        print('fizz')
+    else:
+        print(a)
+
+a=int(input('enter the sum:'))
+fizz_buzz(a)
